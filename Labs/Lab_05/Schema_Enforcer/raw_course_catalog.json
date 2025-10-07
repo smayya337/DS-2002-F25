@@ -1,0 +1,54 @@
+[
+  {
+    "course_id": "DS2002",
+    "section": "001",
+    "title": "Data Science Systems",
+    "level": 200,
+    "instructors": [
+      {
+        "name": "Austin Rivera",
+        "role": "Primary"
+      },
+      {
+        "name": "Heywood Williams-Tracy",
+        "role": "TA"
+      }
+    ]
+  },
+  {
+    "course_id": "CS4260",
+    "section": "001",
+    "title": "Internet Scale Applications",
+    "level": 400,
+    "instructors": [
+      {
+        "name": "Derrick Stone",
+        "role": "Primary"
+      }
+    ]
+  },
+  {
+    "course_id": "STS4500",
+    "section": "001",
+    "title": "STS and Engineering Practice",
+    "level": 400,
+    "instructors": [
+      {
+        "name": "Caitlin Wylie",
+        "role": "Primary"
+      }
+    ]
+  },
+  {
+    "course_id": "EBUS4810",
+    "section": "001",
+    "title": "New Product Development",
+    "level": 400,
+    "instructors": [
+      {
+        "name": "Adarsh Ramakrishnan",
+        "role": "Primary"
+      }
+    ]
+  }
+]
