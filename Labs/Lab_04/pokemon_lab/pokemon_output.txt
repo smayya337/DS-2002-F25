@@ -1,0 +1,47 @@
+--- Running Test Pipeline (Built-in Test Modes) ---
+# 1. Run the update script (triggers test() function by default)
+Starting portfolio update in Test Mode...
+Successfully updated portfolio to test_card_portfolio.csv
+# 2. Run the summary script (triggers test() function by default)
+--- Portfolio Summary ---
+Total Portfolio Value: $326.55
+--- Most Valuable Card ---
+Name: Charizard
+ID: base1-4
+Value: $250.75
+Test complete.
+--- Adding New Card Set ---
+Enter the TCG Card Set ID (e.g., base1): base1
+Fetching data for set ID: base1...
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  166k    0  166k    0     0   2922      0 --:--:--  0:00:58 --:--:-- 42725
+--- Adding New Card Set ---
+Enter the TCG Card Set ID (e.g., base1): base4
+Fetching data for set ID: base4...
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  220k    0  220k    0     0   4448      0 --:--:--  0:00:50 --:--:-- 66651
+--- Starting Portfolio Build Workflow ---
+Do you want to add a NEW card set? (yes/no)
+no
+Do you want to refresh ALL existing card sets? (yes/no)
+yes
+--- Refreshing All Card Sets ---
+Refreshing all card sets in card_set_lookup/...
+Updating set: base1...
+Data written to card_set_lookup/base1.json
+Updating set: base4...
+Data written to card_set_lookup/base4.json
+All card sets have been refreshed.
+--- Starting Production Pipeline ---
+Step 1: Updating portfolio data...
+Successfully updated portfolio to card_portfolio.csv
+Step 2: Generating summary report...
+--- Portfolio Summary ---
+Total Portfolio Value: $5,674.73
+--- Most Valuable Card ---
+Name: Charizard
+ID: base1-4
+Value: $457.99
+--- Production Pipeline Complete ---
